@@ -1,0 +1,5 @@
+J = input('Enter J')
+J = set(J)
+S = input('Enter S')
+result = sum(S.count(i) for i in J)
+print(result)

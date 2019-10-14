@@ -1,8 +1,16 @@
-/**
- * Return an array of arrays of size *returnSize.
- * The sizes of the arrays are returned as *columnSizes array.
- * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
- */
+#include<stdio.h>
+#include<string.h>
+int main(){
+	int n;
+	int k;
+	printf( "Enter n:");
+	gets(n);
+	printf( "Enter k:");
+	gets(k);
+
+	printf("%d/n",numJewelsInStones(j,s));
+	return 0;
+}
 int** combine(int n, int k, int** columnSizes, int* returnSize) {
     int i = 0;
     int* use = (int*)calloc(k, sizeof(int));
